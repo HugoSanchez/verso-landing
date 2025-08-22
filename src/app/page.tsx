@@ -99,7 +99,7 @@ const FinalScreen = () => {
 				Want to reach out?
 				<br/>
 				<span className="text-white text-base">
-					Email me here.
+					Email me <a href="mailto:hugo@itsverso">here</a>.
 				</span>
 			</h1>
 		</BlurFade>
