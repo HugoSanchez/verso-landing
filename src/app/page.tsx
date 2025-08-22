@@ -4,7 +4,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 import { useState } from "react";
 
 
-export const FirstScreen = () => {
+const FirstScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
@@ -16,7 +16,7 @@ export const FirstScreen = () => {
 
 
 
-export const SecondScreen = () => {
+const SecondScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-extralight leading-relaxed text-center">
@@ -29,7 +29,7 @@ export const SecondScreen = () => {
 	)
 }
 
-export const ThirdScreen = () => {
+const ThirdScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
@@ -39,7 +39,7 @@ export const ThirdScreen = () => {
 	)
 }
 
-export const FourthScreen = () => {
+const FourthScreen = () => {
 
 	const handleStepFourthRedirect = (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
@@ -64,7 +64,7 @@ export const FourthScreen = () => {
 	)
 }
 
-export const FifthScreen = () => {
+const FifthScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
@@ -78,7 +78,7 @@ export const FifthScreen = () => {
 	)
 }
 
-export const SixthScreen = () => {
+const SixthScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
@@ -92,7 +92,7 @@ export const SixthScreen = () => {
 	)
 }
 
-export const FinalScreen = () => {
+const FinalScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
