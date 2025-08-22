@@ -68,7 +68,7 @@ const FifthScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
-				A clean and simple solution to help online health practitioners manage their bookings and get paid in time.
+				A simple booking system for online health practitioners.
 				<br/>
 				<span className="text-white text-lg">
 					Access <a href="https://www.itscoco.app/" target="_blank" rel="noopener noreferrer">here.</a>
