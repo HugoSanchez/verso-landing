@@ -23,7 +23,7 @@ const SecondScreen = () => {
 				It&apos;s a <span className="font-bold"> playground </span>
 				to build, experiment and launch
 				<br/>
-				new digital products and experiences.
+				new digital products.
 			</h1>
 		</BlurFade>
 	)
