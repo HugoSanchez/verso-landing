@@ -8,7 +8,7 @@ export const FirstScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
 			<h1 className="text-2xl text-gray-200 font-sans font-light leading-relaxed text-center">
-				<span className="font-black font-serif italic">Verso</span> is a personal product studio.
+				<span className="font-black font-serif italic">Verso</span> is a personal venture studio.
 			</h1>
 		</BlurFade>
 	)
@@ -54,7 +54,7 @@ export const FourthScreen = () => {
 				className="w-full"
 				onClick={(e) => handleStepFourthRedirect(e)}>
 				<p className="text-gray-200 text-lg text-center font-light">
-					Read about it here.
+					Source code <a href="https://github.com/itsverso/smart-contracts-v2" target="_blank" rel="noopener noreferrer">here.</a>
 				</p>
 			</button>
 
@@ -69,7 +69,7 @@ export const FifthScreen = () => {
 				A clean and simple solution to help online health practitioners manage their bookings and get paid in time.
 				<br/>
 				<span className="text-white text-lg">
-					Access here.
+					Access <a href="https://www.itscoco.app/" target="_blank" rel="noopener noreferrer">here.</a>
 				</span>
 			</h1>
 		</BlurFade>
