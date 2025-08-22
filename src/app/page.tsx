@@ -118,7 +118,7 @@ export default function Home() {
 		<div className="h-screen w-screen bg-black">
 			<main
 				onClick={handleClick}
-				className="h-full max-w-2xl mx-auto flex items-center justify-center flex-col">
+				className="h-full max-w-2xl mx-auto px-6 md:px-0 flex items-center justify-center flex-col">
 					{
 						counter === 0 && <FirstScreen />
 					}
