@@ -14,6 +14,8 @@ export const FirstScreen = () => {
 	)
 }
 
+
+
 export const SecondScreen = () => {
 	return (
 		<BlurFade delay={0.4} duration={0.7}>
